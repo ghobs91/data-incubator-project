@@ -5,4 +5,5 @@ from .views import HomePageView
 
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
+    from .views import HomePageView, CreatePostView # new
 ]
