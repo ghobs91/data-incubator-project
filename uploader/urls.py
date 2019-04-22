@@ -1,9 +1,8 @@
 # uploader/urls.py
 from django.urls import path
-
-from .views import HomePageView
+from .views import HomePageView, CreatePostView # new
 
 urlpatterns = [
     path('', HomePageView.as_view(), name='home'),
-    from .views import HomePageView, CreatePostView # new
+    path('post/', CreatePostView.as_view(), name='add_post') # new
 ]
