@@ -1,0 +1,1 @@
+web: gunicorn data-incubator-project.wsgi --log-file -
