@@ -1,1 +1,1 @@
-web: gunicorn data-incubator-project.wsgi --log-file -
+web: gunicorn uploader_project.wsgi --log-file -
